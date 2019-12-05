@@ -1,9 +1,9 @@
 # AndriiZelenkoDissertation
-Path Planning
-Project reilizing two path planning and obstacle avoidance algoruthms in 3-D space using python.
-RRT24 contains Random Rapidly Exploring tree algorithm realization code. 
-PRM24 contains Probabilistic Road Map algorithm realizing code. 
-RRT24_test contains code for RRT algorithm performance(computational time, trajectory length with and without smoothness) testing, for clear computational time tests any plots removed from this code, therefore run same design scenarios for RRT24 and RRT24_test, to recieve trajectory plot from RRT24 and path planning performance from RRT24_test
+- Path Planning
+- Project reilizing two path planning and obstacle avoidance algoruthms in 3-D space using python.
+- RRT24 contains Random Rapidly Exploring tree algorithm realization code. 
+- PRM24 contains Probabilistic Road Map algorithm realizing code. 
+- RRT24_test contains code for RRT algorithm performance(computational time, trajectory length with and without smoothness) testing, for clear computational time tests any plots removed from this code, therefore run same design scenarios for RRT24 and RRT24_test, to recieve trajectory plot from RRT24 and path planning performance from RRT24_test
 
 Run command: <pip install -r requirement.txt> to install all requirements 
 
