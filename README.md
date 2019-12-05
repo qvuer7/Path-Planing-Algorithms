@@ -1,4 +1,4 @@
-# AndriiZelenkoDissertation
+
 - Path Planning
 - Project reilizing two path planning and obstacle avoidance algoruthms in 3-D space using python.
 - RRT24 contains Random Rapidly Exploring tree algorithm realization code. 
