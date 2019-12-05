@@ -9,10 +9,10 @@ Run command: <pip install -r requirement.txt> to install all requirements
 
 RRT takes all input from user, therefore running it from terminal makes all codes relevent fro each specific user input 
 PRM do not takes any user input atm, but you can change htem inside code, such as: 
-  -iterations - for number of iterations 
-  -snode = node(Xstart, Ystart, ZStart)
-  -gnode = node(Xgoal,Ygoal, Zgoal)
-  -k_min - by default equal to number of iterations + num(gnode) + num(snode), but to decrease computational time ypu can play    with this value 
+  - iterations - for number of iterations 
+  - snode = node(Xstart, Ystart, ZStart)
+  - gnode = node(Xgoal,Ygoal, Zgoal)
+  - k_min - by default equal to number of iterations + num(gnode) + num(snode), but to decrease computational time ypu can play    with this value 
   - obstacle coordinates = [[Xobstacle,Yobstacle,Zobstacle], ....[Xobstacle(n), Yobstalce(n), Zobstacle(n)]], you can append as much obstacles as you want to. 
 
 Further imporments will be provided.
