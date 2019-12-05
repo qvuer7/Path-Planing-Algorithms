@@ -235,18 +235,12 @@ for i in range(input[0]):
                         continue
 
             if collision:
-
-                ax.scatter(-2, -2, -2)
-                minRand = snode[obj].x - 2
-                maxRand = snode[obj].x + 2
-                goal_sample_rate[obj] = 2
+                goal_sample_rate[obj] = 0
 
             else:
 
                 nodelist[obj].append(snode[obj])
                 ax.scatter(snode[obj].x, snode[obj].y, snode[obj].z, color=colors[obj])
-                minRand = minRandd
-                maxRand = maxRandd
                 goal_sample_rate[obj] = 100
 
             if (cal_dist_and_angle(snode[obj], gnode[obj])[1] <= input[3]):
